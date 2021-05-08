@@ -14,29 +14,22 @@ rm -rf /tmp/v2ray
 install -d /usr/local/etc/v2ray
 cat << EOF > /usr/local/etc/v2ray/config.json
 {
-    "inbounds": [
-        {
-            "port": $PORT,
-            "protocol": "vmess",
-            "settings": {
-                "clients": [
-                    {
-                        "id": "$UUID",
-                        "alterId": 64
-                    }
-                ],
-                "disableInsecureEncryption": true
-            },
-            "streamSettings": {
-                "network": "ws"
-            }
-        }
-    ],
-    "outbounds": [
-        {
-            "protocol": "freedom"
-        }
-    ]
+    "inbound": {
+      "port": 53,
+      "listen": "127.0.0.1",
+      "protocol": "shadowsocks",
+      "settings": {
+      "email": "love@v2ray.com",
+      "method": "aes-256-cfb",
+      "password": "qwer1234",
+      "udp": true,
+      "level": 0,
+      "ota": true
+      },
+      "streamSettings": {},
+      "tag": "标识",
+      "domainOverride": ["http", "tls"]
+    }
 }
 EOF
 
