@@ -21,10 +21,10 @@ cat << EOF > /usr/local/etc/v2ray/config.json
                 "vnext": [
                     {
                         "address": "27.0.0.1",
-                        "port": 8080,
+                        "port": $PORT,
                         "users": [
                             {
-                                "id": "b5f4321b-4642-4663-abdf-e5d7605f3270",
+                                "id": "$UUID",
                                 "alterId": 0,
                                 "security": "auto"
                             }
