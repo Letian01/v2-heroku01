@@ -1,8 +1,8 @@
-# V2Ray Heroku
+# V2 Heroku
 
 ## 概述
 
-用于在 Heroku 上部署 V2Ray Websocket。
+用于在 Heroku 上部署 V2 Websocket。
 
 **Heroku 为我们提供了免费的容器服务，我们不应该滥用它，所以本项目不宜做为长期翻墙使用。**
 
