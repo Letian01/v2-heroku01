@@ -14,7 +14,7 @@
 
 本镜像不会因为大量占用资源而被封号。
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://Fgithub.com/Letian01/v2-heroku01)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/Letian01/v2-heroku01)
 
 ## ENV 设定
 
